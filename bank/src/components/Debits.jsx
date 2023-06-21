@@ -32,7 +32,6 @@ function Debits() {
   return (
     <>
       <h1>Debits</h1>
-      Welcome to the Debits page!
       <h2>
         Debits Balance:{" "}
         {submittedDebits.reduce(
@@ -42,7 +41,7 @@ function Debits() {
       </h2>
       {console.log(debits)}
       <form onSubmit={handleSubmit}>
-        <label htmlFor="debit">Debit</label>
+        <label htmlFor="debit">Add Debit</label>
         <br />
         <input
           id="debit"
