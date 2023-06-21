@@ -2,13 +2,12 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from "./components/Home";
 //import './styles.css';
-function App(){
- 
+function App() {
   return (
     <Router>
-        <div className="App">
-          <Home/>
-        </div>
+      <div className="App">
+        <Home />
+      </div>
     </Router>
   );
 }
