@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Routes, Route, Link } from "react-router-dom";
 import Debits from "./Debits";
 import Credits from "./Credits";
+import './styles.css';
 
 function Home() {
   return (

@@ -18,7 +18,7 @@ function Debits() {
     async function fetchDebits() {
       try {
         const response = await axios.get(
-          "https://bank-of-react-b745wfs0u-ajlapid718.vercel.app/debits"
+          "https://bank-of-react-b745wfs0u-ajlapid718.vercel.app/credits"
         );
         setDebits(response.data);
       } catch (error) {
